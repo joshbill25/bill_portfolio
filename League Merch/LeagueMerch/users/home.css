@@ -1,0 +1,94 @@
+/* New style for the hover effect */
+.product:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Change the shadow as needed */
+}
+
+/* Styles for the modal */
+.modal-content {
+    background-color: #f8f9fa; /* Change the background color as needed */
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #343a40; /* Change the header background color as needed */
+    color: white; /* Change the header text color as needed */
+    border-bottom: none; /* Remove the bottom border */
+}
+
+.modal-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-dialog {
+    max-width: 300px; /* Adjust the maximum width of the modal as needed */
+    margin: 20px auto; /* Center the modal horizontally */
+}
+
+/* Close button */
+.close {
+    color: white; /* Change the close button color as needed */
+    opacity: 1; /* Ensure the close button is visible */
+}
+
+/* Product image in modal */
+#productImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    background-color: #000000;
+}
+
+/* Product details in modal */
+#productName {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#productDescription {
+    margin-top: 10px;
+}
+
+#productPrice {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Quantity controls */
+.quantity-input {
+    text-align: center;
+}
+
+.quantity-controls .btn {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+}
+
+.variation-btn {
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+/* Add to cart button */
+#addToCartBtn {
+    margin-top: 10px;
+}
+
+/* Styling for the image header */
+header.image-header {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  header.image-header img {
+    max-width: 100%; /* Adjust the percentage as needed */
+    height: auto;
+    border-radius: 10px; /* Adding a curved border to the image */
+  }

@@ -1,0 +1,44 @@
+/* Custom CSS for the homepage */
+        .team-members img {
+            width: 100%;
+            height: auto;
+            max-height: 100px;
+            object-fit: cover;
+        }
+
+        .team-members li {
+            list-style: none;
+            margin-bottom: 10px;
+        }
+
+        /* Add margin to move the team members to the right */
+        .team-members {
+            margin-right: 20px; /* Adjust this value as needed */
+            display: grid;
+        }
+
+        /* Move the text to the left */
+        .team-members p {
+            margin-left: 0px; /* Set the left margin to 0 */
+        }
+
+        /* Style for the 3x3 grid */
+        .team-members .row {
+            margin-bottom: 0px;
+        }
+
+        .container {
+            margin-top: 0px;
+        }
+
+        h3 {
+            margin-top: 100px;
+        }
+        
+        .footer-bottom text-center p-3 {
+            text-align: center;
+        }
+    
+.list-unstyled {
+    list-style: none;
+}

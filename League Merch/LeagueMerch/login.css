@@ -1,0 +1,84 @@
+/*INDEX*/
+
+.text-center h1 {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.text-center p {
+    text-align: justify;
+    font-weight: 550;
+}
+
+body {
+    background-image: url('background%20images/log%20in%20page%20wp.jpg');/*background-image: url('background images/1291921.jpg');*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+}   
+       
+.container {
+    margin-top: 0px;
+}
+
+/* HEADER */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;        
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0px;
+}
+
+.header-content img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 1000px;
+    
+}
+
+/*REGISTRATION FORM*/
+
+.registration-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+ .registration-form h2 {
+    text-align: center;
+}
+
+.league-image {
+    max-width: 25%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 0px; /* Add margin as needed */
+    margin-top: 100px;
+}
+
+.league-image2 {
+    max-width: 60%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 0px; /* Add margin as needed */
+    margin-top: 100px;
+}

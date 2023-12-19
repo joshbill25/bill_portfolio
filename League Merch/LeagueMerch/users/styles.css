@@ -1,0 +1,179 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #171b20;
+  color: #fff;
+  padding: 5px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: -100px;
+}
+
+header img {
+  max-width: 200px; /* Adjust the max-width of the logo as needed */
+    margin-top: -50px;
+    margin-bottom: -80px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 80px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ed7d3a;
+}
+
+.container h2 {
+  margin: 0;
+}
+
+.dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #000;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      border-radius: 10px;
+}
+
+.dropdown-container:hover .dropdown-content {
+      display: block;
+}
+
+.categories {
+  background-color: #ff0000; /*wala ata to pero wag ko na idelete incase need*/
+  padding: 40px 0;
+}
+
+.container h2 {
+  font-size: 24px;
+  color: #333;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.categories .category-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.categories .category-item a {
+  text-decoration: none;
+  color: #555;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.categories .category-item a:hover {
+  background-color: #ddd;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ed7d3a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+
+.search-container {
+  display: flex;
+  justify-content: flex-end; /* Adjusted to space between items */
+  padding: 10px;
+}
+
+.cart-icon {
+  font-size: 24px; /* Adjust the size as needed */
+  margin-right: 25px; /* Adjust the spacing as needed */
+  margin-top: -50px;
+  cursor: pointer;
+}
+
+/* Additional styling if you want to change the appearance of the cart icon on hover */
+.cart-icon:hover {
+  color: #ff4500; /* Adjust the color on hover */
+}
+
+.profile-icon {
+  font-size: 24px; /* Adjust the size as needed */
+  margin-right: 25px; /* Adjust the spacing from the search bar or cart icon */
+  margin-top: -50px;
+  cursor: pointer;
+}
+
+/* Additional styling if you want to change the appearance of the profile icon on hover */
+.profile-icon:hover {
+  color: #007bff; /* Adjust the color on hover */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-top: -80px; /* Adjust the margin to move the search bar higher */
+  margin-right: -150px;
+}
+
+.search-input {
+  width: 200px; /* Adjust the width as needed */
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 100px;
+  outline: none;
+}
+
+.search-icon {
+  margin-left: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.image-header {
+  text-align: center;
+  margin: 20px;
+}
+
+.image-header img {
+  max-width: 50%; /* Adjust the percentage as needed */
+  height: auto;
+  border-radius: 10px; /* Adding a curved border to the image */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle box shadow for depth */
+  transition: transform 0.3s ease; /* Adding a transition for smooth hover effect */
+}
+
